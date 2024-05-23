@@ -1,0 +1,593 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEF BAZAAR </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>SHEF BAZAAR</span></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">order</a>
+        <a href="#packages">deals</a>
+        <a href="#events">events</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">about us</a>
+        <a href="#contact">contact us</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+ <div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div> 
+
+<!-- home section starts  -->
+
+ <section class="home" id="home">
+
+    <div class="content">
+        <h3>Taste the comfort of home,</h3>
+        <h3>no matter how far you roam!</h3>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="">
+        <span data-src="images/vid-1.mp4"></span>
+        <!-- <span class="vid-btn" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-1.mp4"></span> -->
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section> 
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>o</span>
+        <span>r</span>
+        <span>d</span>
+        <span>e</span>
+        <span>r</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>What cuisine</h3>
+                <input type="text" placeholder="cuisine name">
+            </div>
+            <div class="inputBox">
+                <h3>servings size</h3>
+                <input type="number" placeholder="portion size">
+            </div>
+            <div class="inputBox">
+                <h3>pickup</h3>
+                <input type="time">
+            </div>
+            <div class="inputBox">
+                <h3>delivery</h3>
+                <input type="time">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section> 
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>M</span>
+        <span>e</span>
+        <span>e</span>
+        <span>t</span> 
+        <span>.</span>
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span>.</span>
+        <span>f</span>
+        <span>a</span>
+        <span>v</span>
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span>i</span>
+        <span>t</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/india.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Namaste from India </h3>
+                <p>I am Laxmi and I specialise in cooking comforting, mum-like dishes such as creamy Butter Chicken, aromatic Biryani, hearty Rajma Chawal, flavourful Dal Tadka, Aloo poori and many more. Indulge in the true essence of authentic Indian home-cooked cuisine!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!-- <div class="price"> 9000.00 <span>12000.00</span> </div> -->
+                <a href="#book" class="btn">Connect now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Hola.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Hola amigos </h3>
+               <p>this is Esteban from Spain! I can whip up dishes that will transport you to the charming lanes of Spain, like savory Paella, rich Gazpacho, and delectable Churros. Come enjoy the authentic flavors of Spanish cuisine! </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <!-- <div class="price"> 12000.00 <span>15000.00</span> </div> -->
+                <a href="#book" class="btn">Connect now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/abcd.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Ciao </h3>
+               <p>Ciao from your Nonna (Isabella)! I create dishes that bring the essence of Italy to your table, like traditional Spaghetti Carbonara, velvety Risotto, and luscious Tiramisu. Let me treat you to the authentic flavours of Italian home cooking!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <!-- <div class="price"> 12000.00 <span>15000.00</span> </div> -->
+                <a href="#book" class="btn">Connect now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Selamat.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> selamat </h3>
+               <p>Hi, I am Sheryl from Malaysia. Welcome aboard my ferry. Here, you’ll get to experience a “boatload” (pun intended) of finger-licking dishes. Tell me what suits your palate, and I will deliver it to you in a traditional style. Whether you prefer dishes as simple as this or as rich as Rendang, I can serve you a slice of Malaysia right from my kitchen. So hop on and buckle in!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <!-- <div class="price"> 12000.00 <span>15000.00</span> </div> -->
+                <a href="#book" class="btn">Connect now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/iran.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> khosh amadid </h3>
+               <p>I am ailin from iran. i invite you to embark on a multi-sensory journey through the vibrant tapestry of Persian food culture. My expertise lies in unlocking the secrets of the "shah's table," where aromatic spices like saffron and cardamom mingle with delicate floral notes of rosewater. Every ingredient, sourced with the utmost care, is transformed through generations-old techniques into culinary masterpieces.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!-- <div class="price"> 12000.00 <span>15000.00</span> </div> -->
+                <a href="#book" class="btn">Connect now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Nin.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Nín hǎo (你好)! </h3>
+               <p>My each dish whispers stories of tradition, from delicate Cantonese dim sum, expertly steamed and filled, to Sichuan's bold flavors, awakened by the tingly heat of Sichuan peppercorns, I bring you authentic flavors with traditional methods like stir-frying, braising, and steaming to unlock the true essence of Chinese cuisine for your table.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <!-- <div class="price"> 12000.00 <span>15000.00</span> </div> -->
+                <a href="#book" class="btn">Connect now</a>
+            </div>
+        </div>
+    </div>
+
+</section> 
+
+
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-regular fa-bowl-food"></i>
+            <h3>Home cooked meals</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-language"></i>
+            <h3>multilingual support </h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>⁠customization</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-shrimp"></i>
+            <h3>⁠dietary preferences</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-gifts"></i>
+            <h3>⁠special occasions</h3>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-credit-card"></i>
+            <h3>⁠secure payment</h3>
+        </div>
+        
+        <!-- <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>⁠secure payment</h3>
+        </div> -->
+
+    </div>
+
+</section> 
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/food1.jpeg" alt="">
+            <div class="content">
+                <h3>Chicken marsala</h3>
+                <p>Chicken marsala in creamy mushroom sauce is a quick and easy 30-minute chicken dinner that is pure comfort food goals. A total crowd favourite</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/food2.jpeg" alt="">
+            <div class="content">
+                <h3>Mutton biryani</h3>
+                <p>Mutton biryani an aromatic rice dish made with layers of tender mutton pieces (or goat meat), fragrant basmati rice, deep fried onions and aromatic indian spices.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/food3.jpeg" alt="">
+            <div class="content">
+                <h3>Thai red curry</h3>
+                <p>Thai red curry tender chicken in creamy coconut milk with authentic herbs and spices. A savory, sweet, and spicy blend that evokes the flavors of Bangkok.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/food4.jpeg" alt="">
+            <div class="content">
+                <h3>Dumplings</h3>
+                <p>Dumplings delicate, bite-sized treats of different fillings wrapped in a thin layer of dough. They can be both savoury and sweet, and may be boiled, steamed and fried - the choice is yours!</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/food5.jpeg" alt="">
+            <div class="content">
+                <h3>Banh Mi</h3>
+                <p>Experience the vibrant fusion of Vietnamese and French cuisines with our Banh Mi, featuring a crispy baguette filled with savory ingredients.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/food6.jpeg" alt="">
+            <div class="content">
+                <h3>gol gappa</h3>
+                <p>crispy, hollow spheres filled with savory potatoes and tangy chickpeas, dipped in a cool and flavorful mint water for a burst of taste and texture.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/food7.jpeg" alt="">
+            <div class="content">
+                <h3>sushi</h3>
+                <p>crispy, hollow spheres filled with savory potatoes and tangy chickpeas, dipped in a cool and flavorful mint water for a burst of taste and texture.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/food8.jpeg" alt="">
+            <div class="content">
+                <h3>Kebab</h3>
+                <p>Savor marinated skewered meats grilled to perfection, served with fluffy pita bread and refreshing accompaniments.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <!-- <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explor yourself with Rajak travels</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div> -->
+
+    </div>
+
+</section> 
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>a</span>
+        <span>b</span>
+        <span>o</span>
+        <span>u</span>
+        <span>t</span>
+        <span>.</span>
+        <span>u</span>
+        <span>s</span>
+        
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/img.jpeg" alt="">
+                    <!-- <h3>SHEF BAZAAR</h3> -->
+                    <p>As four international students torn between deciding what to eat and how to replicate our moms' and grandmas' cooking, we created this platform to provide solutions to all our culinary challenges. We believe food is more than sustenance; it's a bridge to memories, cultures, and loved ones.
+                        We're building a space where home cooks become cultural ambassadors, passing down not just recipes, but stories and traditions. Join us on this delicious journey. Find a taste of home, or share yours with the world.</p>
+                    <!-- <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span>.</span>
+        <span>u</span>
+        <span>s</span>
+
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section> 
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<!-- <section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div> -->
+
+</section>
+
+<!-- footer section  -->
+
+<!-- <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+           <p>When somebody begins a sentence with “IT WOULD BE NICE IF..” the right thing to do is to wait politely for the speaker to finish. No project ever gets around to the it-would-be-nice features: or if they do, they regret it. Wait for sentences that begin “WE HAVE TO..” and pay close attention, and see if you agree.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href=https://www.facebook.com/profile.php?id=100005086248549>facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href=linkedin.com/in/rahul-rajak-790b96193>linkedin</a>
+        </div>
+
+    </div> -->
+
+    <!-- <h1 class="credit"> created by <span> Rahul Rajak </span> | all rights reserved! </h1> -->
+
+</section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html> 
